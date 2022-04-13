@@ -1,0 +1,1 @@
+from mapocho.wsgi import application
