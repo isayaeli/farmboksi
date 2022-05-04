@@ -29,9 +29,14 @@
 	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
 	            <div class="col-md-12 ftco-animate text-center">
-	              <h1 class="mb-2">We serve Fresh Vegetables &amp; Fruits</h1>
+	            <div>
+                <h1 class="mb-2">We serve Fresh Vegetables &amp; Fruits</h1>
 	              <h2 class="subheading mb-4">We deliver organic vegetables &amp; fruits</h2>
-	              <p><a href="{% url 'auction' %}" class="btn btn-primary">Bid Now</a></p>
+              </div>
+	              <div class="d-inline-flex" >
+                  <p><a href="{% url 'auction' %}" class="btn btn-primary">Bid Now</a></p>
+                  <p><a href="{% url 'shop' %}" class="btn btn-primary ml-3">Shop Now</a></p>
+                </div>
 	            </div>
 
 	          </div>
@@ -44,10 +49,14 @@
 	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
 	            <div class="col-sm-12 ftco-animate text-center">
-	              <h1 class="mb-2">100% Fresh &amp; Organic Foods</h1>
-	              <h2 class="subheading mb-4">We deliver organic vegetables &amp; fruits</h2>
-	              <p><a href="{% url 'auction' %}" class="btn btn-primary btn-lg">Bid Now</a></p>
-	            </div>
+	              <div>
+                  <h1 class="mb-2">100% Fresh &amp; Organic Foods</h1>
+	                <h2 class="subheading mb-4">We deliver organic vegetables &amp; fruits</h2>
+                </div>
+                <div class="d-inline-flex" >
+                  <p><a href="{% url 'auction' %}" class="btn btn-primary">Bid Now</a></p>
+                  <p><a href="{% url 'shop' %}" class="btn btn-primary ml-3">Shop Now</a></p>
+                </div>
 
 	          </div>
 	        </div>

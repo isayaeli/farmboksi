@@ -25,7 +25,7 @@ SECRET_KEY = 'bg+5lei($w)s-m!d70-p$yr-i&7@b-nqap-+mf30z21dc!i^0&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.farmboksi.com','farmboksi.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -132,6 +132,10 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 STATIC_ROOT = '/home/o2k62keaodxi/public_html/static'
 
 MEDIA_URL = '/media/'
